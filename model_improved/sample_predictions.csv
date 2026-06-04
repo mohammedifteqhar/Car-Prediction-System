@@ -1,0 +1,21 @@
+Levy,Manufacturer,Model,Prod. year,Category,Leather interior,Fuel type,Engine volume,Mileage,Cylinders,Gear box type,Drive wheels,Doors,Wheel,Color,Airbags,Accident_history,Brand_value_index,Safety_features,Comfort_features,Modification_penalty,true_price,pred_price
+259.0,CHEVROLET,Volt,2014,Hatchback,0,Plug-in Hybrid,1.4,65000.0,4,Automatic,Front,4-May,Left wheel,Silver,10,0,4,4,8,1,27284.000000000004,16762.277
+,MERCEDES-BENZ,Sprinter,1997,Microbus,1,Diesel,2.9,3333.0,6,Manual,Rear,2-Mar,Left wheel,Red,2,0,4,4,5,1,10348.99999999999,13999.366
+,MERCEDES-BENZ,C 180,1996,Sedan,0,Petrol,1.8,212485.0,8,Manual,Rear,4-May,Left wheel,Green,2,0,6,7,5,1,40769.00000000001,8256.885
+639.0,HYUNDAI,Santa FE,2014,Jeep,1,Diesel,2.0,132756.0,4,Automatic,Front,4-May,Left wheel,Grey,4,0,4,9,5,0,38737.0,34214.09
+831.0,SSANGYONG,Actyon,2017,Jeep,1,Petrol,1.6,50750.0,4,Automatic,Front,4-May,Left wheel,White,4,0,5,4,2,1,42101.99999999998,17652.08
+730.0,SSANGYONG,Actyon,2016,Jeep,1,Diesel,1.6,57793.0,4,Automatic,Front,4-May,Left wheel,White,4,0,5,7,2,0,42400.00000000001,34145.637
+,TOYOTA,Corolla,2012,Sedan,0,LPG,1.8,127000.0,4,Automatic,Front,4-May,Left wheel,White,6,0,8,9,2,1,18817.0,7009.4014
+1451.0,BMW,550,2011,Hatchback,1,Petrol,4.4,110000.0,4,Automatic,Rear,4-May,Left wheel,Black,12,0,2,8,5,1,12857.999999999996,17728.678
+,TOYOTA,RAV 4,2001,Jeep,0,Petrol,2.0,91000.0,4,Automatic,4x4,2-Mar,Right-hand drive,Silver,4,0,9,2,10,0,10820.0,6654.658
+,VOLVO,C30 2010,2010,Coupe,1,Petrol,2.5,160000.0,5,Manual,Front,2-Mar,Left wheel,Black,6,0,3,8,2,0,15366.999999999996,13915.21
+1018.0,BMW,X5,2011,Jeep,1,Diesel,3.0,282280.0,6,Automatic,4x4,4-May,Left wheel,White,0,0,10,3,8,1,626.9999999999999,3515.0767
+353.0,LEXUS,CT 200h,2015,Hatchback,1,Hybrid,1.8,94949.0,4,Automatic,Front,4-May,Left wheel,White,0,0,10,5,8,0,16935.00000000001,2926.5557
+1017.0,MERCEDES-BENZ,E 300,2017,Sedan,1,Petrol,2.0,1600.0,4,Automatic,Rear,4-May,Left wheel,Black,12,0,4,4,4,0,392.0,1441.6221
+1514.0,MERCEDES-BENZ,GL 450,2011,Jeep,1,Petrol,4.6,217485.0,8,Automatic,4x4,4-May,Left wheel,Silver,12,0,9,7,5,0,1724.9999999999998,5378.8047
+1017.0,HYUNDAI,Sonata,2017,Sedan,1,Petrol,2.0,43178.0,4,Automatic,Front,4-May,Left wheel,White,4,0,5,2,1,1,49750.99999999997,8225.373
+,VOLKSWAGEN,Phaeton,2008,Sedan,1,Petrol,3.2,138000.0,6,Tiptronic,4x4,4-May,Left wheel,Black,12,0,3,10,10,0,18817.0,17167.549
+,KIA,Optima,2017,Sedan,1,Petrol,2.4,30000.0,4,Tiptronic,Front,4-May,Left wheel,White,0,0,1,10,7,0,34497.00000000001,10967.241
+,HYUNDAI,Elantra LIMITED,2013,Sedan,1,Petrol,1.8,123200.0,4,Automatic,Front,4-May,Left wheel,Grey,6,0,7,10,9,0,20070.999999999996,10330.486
+,TOYOTA,Camry,2012,Sedan,0,Petrol,2.5,0.0,4,Automatic,Front,4-May,Left wheel,Black,0,0,10,2,2,1,89.99999999999997,6058.289
+,TOYOTA,Prius,2013,Sedan,0,Hybrid,1.8,130000.0,6,Automatic,Front,4-May,Left wheel,Silver,12,0,6,6,0,1,18817.0,4018.9111
