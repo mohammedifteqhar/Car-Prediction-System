@@ -3,8 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange)
 ![Keras](https://img.shields.io/badge/Keras-Neural%20Networks-red)
-![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-green)
-![License](https://img.shields.io/badge/License-Educational-lightgrey)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20Application-green)
 
 ---
 
@@ -12,16 +11,16 @@
 
 This project presents a **Deep Learning-Based Used Car Price Prediction System** that estimates the market value of a vehicle using various attributes such as manufacturer, model, production year, mileage, engine volume, fuel type, accident history, and engineered features.
 
-The system utilizes a **CNN-BiLSTM Hybrid Deep Learning Architecture** to capture complex feature relationships and generate accurate price predictions. A **Streamlit Web Application** is integrated to provide a simple and interactive interface for real-time predictions.
+The system utilizes a **CNN-BiLSTM Hybrid Deep Learning Architecture** to capture complex relationships among vehicle attributes and generate accurate price predictions. An interactive **Streamlit Web Application** is integrated to provide real-time predictions through a user-friendly interface.
 
 ---
 
 ## 🎯 Objectives
 
 - Predict used car prices with high accuracy.
-- Apply feature engineering techniques to improve model performance.
-- Compare deep learning approaches with traditional machine learning models.
-- Provide a user-friendly web interface for real-time predictions.
+- Apply feature engineering techniques to improve prediction performance.
+- Compare deep learning models with traditional machine learning approaches.
+- Provide a simple and interactive web-based prediction system.
 - Assist buyers, sellers, and dealerships in making informed pricing decisions.
 
 ---
@@ -53,22 +52,28 @@ The system utilizes a **CNN-BiLSTM Hybrid Deep Learning Architecture** to captur
 ```text
 Car-Prediction-System/
 │
+├── assets/
+│   ├── homepage.jpg
+│   ├── Result.jpg
+│   ├── sample details.jpg
+│   ├── sample details2.jpg
+│   ├── pipeline.png
+│   └── workflow.png
+│
 ├── data/
-│   ├── train.csv
-│   └── test.csv
 │
 ├── model/
-│   ├── car_price_model.h5
-│   ├── scaler.pkl
-│   └── encoders.pkl
 │
 ├── model_improved/
+│
 ├── model_tabular/
 │
 ├── app.py
+├── app1.py
 ├── model_training.ipynb
-├── README.md
-└── requirements.txt
+├── Untitled.ipynb
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -103,12 +108,12 @@ The model uses multiple vehicle attributes including:
 The following preprocessing techniques are applied:
 
 - Missing Value Handling
+- Data Cleaning
 - Label Encoding
 - Feature Scaling using StandardScaler
 - Feature Engineering
-- Data Cleaning
 - Train-Test Splitting
-- Model Input Reshaping
+- Input Reshaping for Deep Learning
 
 ---
 
@@ -119,22 +124,22 @@ The following preprocessing techniques are applied:
 The proposed model combines:
 
 ### 🔹 CNN Layer
-- Extracts meaningful feature patterns
-- Learns local feature relationships
-- Reduces noise in input data
+- Extracts meaningful feature patterns.
+- Learns local relationships among vehicle attributes.
+- Reduces feature noise.
 
 ### 🔹 BiLSTM Layer
-- Captures bidirectional dependencies
-- Improves contextual understanding
-- Enhances feature representation
+- Captures bidirectional dependencies.
+- Improves contextual understanding of features.
+- Enhances prediction performance.
 
 ### 🔹 Dense Layers
-- Perform final regression
-- Generate accurate price predictions
+- Perform final regression.
+- Generate accurate price predictions.
 
 ---
 
-### Model Architecture
+## 🔄 Model Architecture
 
 ```text
 Input Features
@@ -149,7 +154,7 @@ Input Features
    BiLSTM
       │
       ▼
-   Dense
+   Dense Layer
       │
       ▼
  Price Prediction
@@ -175,21 +180,22 @@ The CNN-BiLSTM model is compared against:
 - Random Forest Regressor
 - XGBoost Regressor
 
-Results demonstrate improved prediction accuracy and generalization performance.
+The hybrid model demonstrates improved prediction accuracy and better generalization performance.
 
 ---
 
 ## 🌐 Streamlit Web Application
 
-The project includes a Streamlit-based interactive web application for real-time price prediction.
+The project includes an interactive Streamlit-based web application.
 
 ### Features
 
-✔ Real-Time Car Price Prediction  
+✔ Real-Time Price Prediction  
 ✔ User-Friendly Interface  
 ✔ Automated Data Preprocessing  
 ✔ Instant Prediction Results  
-✔ Input Validation and Error Handling  
+✔ Input Validation  
+✔ Error Handling  
 
 ---
 
@@ -222,7 +228,7 @@ model_training.ipynb
 
 Run all cells.
 
-### Launch the Streamlit Application
+### Launch the Application
 
 ```bash
 streamlit run app.py
@@ -234,27 +240,27 @@ streamlit run app.py
 
 ### Home Page
 
-_Add screenshot here_
-
-```markdown
-![Home Page](assets/homepage.png)
-```
+![Home Page](assets/homepage.jpg)
 
 ### Prediction Result
 
-_Add screenshot here_
+![Prediction Result](assets/Result.jpg)
 
-```markdown
-![Prediction Result](assets/prediction.png)
-```
+### Sample Input Details
 
-### Model Architecture
+![Sample Input](assets/sample details.jpg)
 
-_Add screenshot here_
+### Additional Sample Input
 
-```markdown
-![Model Architecture](assets/model_architecture.png)
-```
+![Sample Input 2](assets/sample details2.jpg)
+
+### Project Workflow
+
+![Workflow](assets/workflow.png)
+
+### Data Processing Pipeline
+
+![Pipeline](assets/pipeline.png)
 
 ---
 
@@ -263,7 +269,7 @@ _Add screenshot here_
 1. Enter vehicle details.
 2. Click **Predict Price**.
 3. Input data is automatically preprocessed.
-4. CNN-BiLSTM model generates a prediction.
+4. CNN-BiLSTM model predicts the car price.
 5. Predicted market value is displayed instantly.
 
 ---
@@ -272,7 +278,7 @@ _Add screenshot here_
 
 - Integration with live automobile marketplaces
 - Mobile application support
-- Image-based car price estimation
+- Car image-based price estimation
 - NLP analysis of vehicle descriptions
 - Cloud deployment
 - Explainable AI (XAI)
@@ -283,11 +289,13 @@ _Add screenshot here_
 ## 💡 Key Learning Outcomes
 
 - Deep Learning Model Development
-- CNN and BiLSTM Architectures
-- Data Preprocessing and Feature Engineering
-- Model Evaluation Techniques
-- Streamlit Application Development
-- Machine Learning Deployment
+- CNN Architecture
+- Bidirectional LSTM Networks
+- Feature Engineering
+- Data Preprocessing
+- Model Evaluation
+- Streamlit Deployment
+- Machine Learning Workflow
 
 ---
 
@@ -304,16 +312,16 @@ Bachelor of Engineering (Computer Science & Engineering)
 - Data Science
 - Artificial Intelligence
 
-### Connect with Me
+### Connect With Me
 
 - GitHub: https://github.com/mohammedifteqhar
-- LinkedIn: *(Add your LinkedIn profile link here)*
+- LinkedIn: Add your LinkedIn profile link here
 
 ---
 
 ## 📜 License
 
-This project is developed for **educational and research purposes**.
+This project is developed for educational and research purposes.
 
 ---
 
