@@ -248,11 +248,11 @@ streamlit run app.py
 
 ### Sample Input Details
 
-![Sample Input](assets/sample details.jpg)
+![Sample Input](assets/sample_details.jpg)
 
 ### Additional Sample Input
 
-![Sample Input 2](assets/sample details2.jpg)
+![Sample Input 2](assets/sample_details2.jpg)
 
 ### Project Workflow
 
@@ -301,7 +301,7 @@ streamlit run app.py
 
 ## 👨‍💻 Author
 
-### Mohammed Yaseer
+### Mohammed Ifteqhar
 
 Bachelor of Engineering (Computer Science & Engineering)
 
