@@ -315,7 +315,7 @@ Bachelor of Engineering (Computer Science & Engineering)
 ### Connect With Me
 
 - GitHub: https://github.com/mohammedifteqhar
-- LinkedIn: Add your LinkedIn profile link here
+- LinkedIn: www.linkedin.com/in/md-ifteqhar-791227340
 
 ---
 
